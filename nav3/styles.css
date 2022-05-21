@@ -27,7 +27,15 @@ header {
 
 .logo {
     cursor: pointer;
+    order: 3;
+    margin-left: auto;
 
+}
+
+
+nav {
+
+    order: 1;
 }
 
 .nav-links {
@@ -42,6 +50,13 @@ header {
 
 }
 
+.nav-links li:nth-child(1) {
+    padding: 0 20px  0 0;
+    
+
+}
+
+
 .nav-links li a {
     transition: all 0.3s ease 0s;
 }
@@ -53,7 +68,12 @@ header {
 
 }
 
+.cta {
+    order: 2;
+}
+
 button {
+    margin-left: 20px;
     padding: 9px 35px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
